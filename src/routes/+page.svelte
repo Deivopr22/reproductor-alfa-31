@@ -1,8 +1,7 @@
-<script>
-    import axios from "axios";
+<script lang="ts">
     import SongCard from "$lib/components/SongCard.svelte";
 
-    const SongData = axios.get("https://leonardoapi.vercel.app/api/tracks");
+    const { data } = $props()
 </script>
 
 
@@ -23,13 +22,10 @@
     </div>
 
     <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
-        {#await SongData}
-            <p>Cargando...</p>
-        {:then SongData}
-            {#each SongData.data.tracks as track}
-                <SongCard {track}></SongCard>
-            {/each}
-        {/await}
+    
+        {#each data.tracklist as track}
+            <SongCard {track}></SongCard>
+        {/each}
 
     </div>
 
