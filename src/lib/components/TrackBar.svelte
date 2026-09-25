@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import { trackState } from "$lib/store/cancion.svelte";
     import Icon from "@iconify/svelte";
 
@@ -13,7 +13,7 @@
             </div>
             <div class="truncate">
                 <h4 class="text-xs font-semibold text-white truncate">{trackState.track.title}</h4>
-                <p class="text-[11px] text-neutral-400 truncate"></p>
+                <p class="text-[11px] text-neutral-400 truncate">{trackState.track.album.title}</p>
             </div>
             <button class="text-neutral-400 hover:text-red-500 transition-colors ml-1">
                 <Icon icon="lucide:heart" class="text-xs" />

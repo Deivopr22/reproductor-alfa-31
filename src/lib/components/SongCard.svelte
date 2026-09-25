@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import { setTrackState } from "$lib/store/cancion.svelte";
 
     const { track } = $props()
