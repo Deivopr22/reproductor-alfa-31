@@ -17,7 +17,7 @@
 				<span class="w-3 h-3 rounded-full bg-[#ffbd2e] inline-block"></span>
 				<span class="w-3 h-3 rounded-full bg-[#27c93f] inline-block"></span>
 			</div>
-
+				<span class="text-bold text-[#1c1c1e] text-lg"> | </span>
 			<div class="flex items-center gap-2 text-neutral-300 ml-2">
 				<Icon icon="lucide:music" class="text-red-500 text-sm" />
 				<span class="font-semibold text-xs tracking-wide">Música</span>
