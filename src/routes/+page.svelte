@@ -11,16 +11,21 @@
         <p class="text-sm text-neutral-400">Descubre la mejor música para energizar tú día</p>
     </div>
     
+    <hr class="text-gray-900">
+
     <div class="space-y-4">
         <div class="flex items-center justify-between">
             <div class="flex items-baseline gap-3">
                 <h2 class="text-lg font-bold text-white">Nuevos lanzamientos</h2>
+                <span class="text-xs text-neutral-500">●</span>
                 <span class="text-xs text-neutral-500">Álbumes & EPs</span>
             </div>
-
+            
         </div>
     </div>
 
+    <hr class="text-gray-900">
+    
     <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
     
         {#each data.tracklist as track}

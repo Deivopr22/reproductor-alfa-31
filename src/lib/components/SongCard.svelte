@@ -6,12 +6,17 @@
     const handlerClick = () => setTrackState(track)
 </script>
 
-<button onclick={handlerClick}>
-    <div class ="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-baseline gap-x-6 gap-y-12">
-        <img src={track.album.image} alt="" class="rounded-full w-16">
-    
-        <div>
-            <p class="font-semibold">{track.title}</p>
+<button class = "group flex flex-col gap-3 w-full text-left cursor-pointer focus:outline-none" onclick={handlerClick}>
+        <div class="relative aspect-square w-full rounded-lg overflow-hidden bg-neutral-800">
+            <img src={track.album.image} alt="" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
         </div>
-    </div>
+    
+        <div class="">
+            <h3 class="font-semibold text-sm text-white truncate group-hover:text-red-500 transition-colors">
+                {track.title}
+            </h3>
+        <p class="text-xs text-neutral-400 truncate font-normal">
+            {track.artist?.name || track.album.title || 'Artista desconocido'}
+        </p>
+        </div>
 </button>

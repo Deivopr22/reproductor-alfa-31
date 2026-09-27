@@ -8,7 +8,7 @@ export const load: PageLoad = async () => {
 
 
     return {
-        tracklist: SongData.data.tracks
+        tracklist: SongData.data.tracks,
         albumlist: AlbumData.data.albums
     }
 }
