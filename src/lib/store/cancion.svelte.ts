@@ -1,3 +1,5 @@
+import { preview } from "vite"
+
 export interface Song {
     title: string
     album: {

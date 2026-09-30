@@ -31,7 +31,7 @@
 				placeholder="Buscar canciones, artistas o álbumes..." 
 				class="w-full bg-[#1c1c1e] text-xs border border-neutral-800/80 rounded-md pl-8 pr-10 py-1.5 focus:outline-none focus:border-neutral-600 text-neutral-200 placeholder-neutral-500"
 			/>
-			<span class="absolute right-2.5 top-1/2 -translate-y-1/2 text-[10px] text-neutral-500 border border-neutral-700/60 rounded px-1 py-0.2">⌘K</span>
+			<span class="absolute right-2.5 top-1/2 -translate-y-1/2 text-[10px] text-neutral-500 border border-neutral-700/60 rounded px-1 py-0.2">Search</span>
 		</div>
 
 		<div class="flex items-center gap-4">
