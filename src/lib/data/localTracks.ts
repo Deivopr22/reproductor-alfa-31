@@ -94,6 +94,54 @@ export const localTracks = [
             name: "Rauw Alejandro"
         },
         audio: "/music/lejosdelcielo.mp3"
+    },
+    {
+        id: "local-9",
+        title: "DtMF",
+        album: {
+            title: "DeBÍ TiRAR MáS FOToS",
+            image: "/album/dtmf.jpg"
+        },
+        artist: {
+            name: "Bad Bunny"
+        },
+        audio: "/music/dtmf.mp3"
+    },
+    {
+        id: "local-10",
+        title: "KLOuFRENS",
+        album: {
+            title: "DeBÍ TiRAR MáS FOToS",
+            image: "/album/dtmf.jpg"
+        },
+        artist: {
+            name: "Bad Bunny"
+        },
+        audio: "/music/kloufrens.mp3"
+    },
+    {
+        id: "local-11",
+        title: "WELTiTA",
+        album: {
+            title: "DeBÍ TiRAR MáS FOToS",
+            image: "/album/dtmf.jpg"
+        },
+        artist: {
+            name: "Bad Bunny"
+        },
+        audio: "/music/weltita.mp3"
+    },
+    {
+        id: "local-12",
+        title: "EoO",
+        album: {
+            title: "DeBÍ TiRAR MáS FOToS",
+            image: "/album/dtmf.jpg"
+        },
+        artist: {
+            name: "Bad Bunny"
+        },
+        audio: "/music/eoo.mp3"
     }
     
 ]
